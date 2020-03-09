@@ -20,4 +20,4 @@ ENTRYPOINT ["/bin/gost"]
 
 EXPOSE 8080
 
-CMD ["-L :8080"]
+CMD ["-L=:8080"]
