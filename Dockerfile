@@ -17,5 +17,3 @@ WORKDIR /bin/
 COPY --from=builder /src/cmd/gost/gost .
 
 ENTRYPOINT ["/bin/gost"]
-
-CMD ["gost -L :8080"]
