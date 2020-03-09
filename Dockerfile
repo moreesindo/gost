@@ -17,3 +17,7 @@ WORKDIR /bin/
 COPY --from=builder /src/cmd/gost/gost .
 
 ENTRYPOINT ["/bin/gost"]
+
+EXPOSE 8080
+
+CMD ["-L :8080"]
